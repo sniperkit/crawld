@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2014-2015 The DevMine authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
@@ -25,9 +30,9 @@ import (
 	"github.com/golang/glog"
 	_ "github.com/lib/pq"
 
-	"github.com/DevMine/crawld/config"
-	"github.com/DevMine/crawld/crawlers"
-	"github.com/DevMine/crawld/repo"
+	"github.com/sniperkit/snk.fork.crawld/config"
+	"github.com/sniperkit/snk.fork.crawld/crawlers"
+	"github.com/sniperkit/snk.fork.crawld/repo"
 )
 
 const version = "1.0.0"
